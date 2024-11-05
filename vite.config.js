@@ -4,5 +4,5 @@ import { ghPages } from 'vite-plugin-gh-pages';
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: 'beamsmasher-calculator', // replace 'your-repo-name' with your GitHub repo name
+  base: 'https://github.com/narrativityy/beamsmasher-calcuator', // replace 'your-repo-name' with your GitHub repo name
 });
