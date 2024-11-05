@@ -55,30 +55,30 @@ function App() {
       <h3>Terminus Beamsmasher Calculator</h3>
       <div className='mt-4 flex justify-center align-baseline text-center gap-4'>
         <h5>X:</h5>
-        <img id='x-1' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-1', setX, 0)} src="./src/assets/symbols-01.jpg" alt="" width={100}/>
-        <img id='x-2' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-2', setX, 10)} src="./src/assets/symbols-02.jpg" alt="" width={100}/>
-        <img id='x-3' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-3', setX, 11)} src="./src/assets/symbols-03.jpg" alt="" width={100}/>
-        <img id='x-4' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-4', setX, 20)} src="./src/assets/symbols-04.jpg" alt="" width={100}/>
-        <img id='x-5' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-5', setX, 21)} src="./src/assets/symbols-05.jpg" alt="" width={100}/>
-        <img id='x-6' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-6', setX, 22)} src="./src/assets/symbols-06.jpg" alt="" width={100}/>
+        <img id='x-1' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-1', setX, 0)} src="/images/symbols-01.jpg" alt="" width={100}/>
+        <img id='x-2' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-2', setX, 10)} src="/images/symbols-02.jpg" alt="" width={100}/>
+        <img id='x-3' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-3', setX, 11)} src="/images/symbols-03.jpg" alt="" width={100}/>
+        <img id='x-4' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-4', setX, 20)} src="/images/symbols-04.jpg" alt="" width={100}/>
+        <img id='x-5' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-5', setX, 21)} src="/images/symbols-05.jpg" alt="" width={100}/>
+        <img id='x-6' className='x hover:scale-110 cursor-pointer' onClick={() => handleClick('x-6', setX, 22)} src="/images/symbols-06.jpg" alt="" width={100}/>
       </div>
       <div className='flex justify-center align-baseline text-center mt-4 gap-4'>
         <h5>Y:</h5>
-        <img id='y-1' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-1', setY, 0)} src="./src/assets/symbols-01.jpg" alt="" width={100} />
-        <img id='y-2' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-2', setY, 10)} src="./src/assets/symbols-02.jpg" alt="" width={100}/>
-        <img id='y-3' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-3', setY, 11)} src="./src/assets/symbols-03.jpg" alt="" width={100}/>
-        <img id='y-4' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-4', setY, 20)} src="./src/assets/symbols-04.jpg" alt="" width={100}/>
-        <img id='y-5' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-5', setY, 21)} src="./src/assets/symbols-05.jpg" alt="" width={100}/>
-        <img id='y-6' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-6', setY, 22)} src="./src/assets/symbols-06.jpg" alt="" width={100}/>
+        <img id='y-1' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-1', setY, 0)} src="/images/symbols-01.jpg" alt="" width={100} />
+        <img id='y-2' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-2', setY, 10)} src="/images/symbols-02.jpg" alt="" width={100}/>
+        <img id='y-3' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-3', setY, 11)} src="/images/symbols-03.jpg" alt="" width={100}/>
+        <img id='y-4' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-4', setY, 20)} src="/images/symbols-04.jpg" alt="" width={100}/>
+        <img id='y-5' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-5', setY, 21)} src="/images/symbols-05.jpg" alt="" width={100}/>
+        <img id='y-6' className='y hover:scale-110 cursor-pointer' onClick={() => handleClick('y-6', setY, 22)} src="/images/symbols-06.jpg" alt="" width={100}/>
       </div>
       <div className='flex justify-center align-baseline text-center mt-4 gap-4'>
         <h5>Z:</h5>
-        <img id='z-1' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-1', setZ, 0)} src="./src/assets/symbols-01.jpg" alt="" width={100} />
-        <img id='z-2' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-2', setZ, 10)} src="./src/assets/symbols-02.jpg" alt="" width={100}/>
-        <img id='z-3' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-3', setZ, 11)} src="./src/assets/symbols-03.jpg" alt="" width={100}/>
-        <img id='z-4' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-4', setZ, 20)} src="./src/assets/symbols-04.jpg" alt="" width={100}/>
-        <img id='z-5' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-5', setZ, 21)} src="./src/assets/symbols-05.jpg" alt="" width={100}/>
-        <img id='z-6' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-6', setZ, 22)} src="./src/assets/symbols-06.jpg" alt="" width={100}/>
+        <img id='z-1' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-1', setZ, 0)} src="/images/symbols-01.jpg" alt="" width={100} />
+        <img id='z-2' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-2', setZ, 10)} src="/images/symbols-02.jpg" alt="" width={100}/>
+        <img id='z-3' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-3', setZ, 11)} src="/images/symbols-03.jpg" alt="" width={100}/>
+        <img id='z-4' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-4', setZ, 20)} src="/images/symbols-04.jpg" alt="" width={100}/>
+        <img id='z-5' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-5', setZ, 21)} src="/images/symbols-05.jpg" alt="" width={100}/>
+        <img id='z-6' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-6', setZ, 22)} src="/images/symbols-06.jpg" alt="" width={100}/>
       </div>
 
       <button className='bg-slate-300 p-2 mt-4 rounded hover:shadow hover:scale-105' onClick={calculateVals}>Calculate</button>
