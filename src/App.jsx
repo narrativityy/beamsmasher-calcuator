@@ -47,7 +47,6 @@ function App() {
     const element = document.getElementById(e)
     element.style.border = '2px solid blue'
     func(val)
-    setPrevious(e)
   }
 
   return (
@@ -81,7 +80,7 @@ function App() {
         <img id='z-6' className='z hover:scale-110 cursor-pointer' onClick={() => handleClick('z-6', setZ, 22)} src="symbols-06.jpg" alt="" width={100}/>
       </div>
 
-      <button className='bg-slate-300 p-2 mt-4 rounded hover:shadow hover:scale-105' onClick={calculateVals}>Calculate</button>
+      <button className='bg-slate-300 p-2 mt-4 rounded shadow hover:scale-105' onClick={calculateVals}>Calculate</button>
       { calculated ? <div className='flex flex-col justify-center align-baseline text-center mt-4 gap-2'>
         <p>First Combo: {firstCombo}</p>
         <p>Second Combo: {secondCombo}</p>
